@@ -1,0 +1,13 @@
+.container {
+    width: 1000px;
+    height: 500px;
+    background-color: #66339922;
+    border: 2px solid rebeccapurple;
+    border-radius: 2px;
+    margin: 20px auto;
+    /* IMPORTANT to have container position relative */
+    position: relative;
+  }
+
+
+  
