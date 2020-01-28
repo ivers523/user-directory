@@ -1,19 +1,14 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Content from "./components/Content";
 import "./styles.css";
+
+import {users} from "./data"
 
 
 export default function App() {
   return (
-    <div className="container">
-    <Header position={{
-      top: 0,
-      left: 0
-    }} />
-    <Content />
-    <Footer />
+    <div className="app">
+      <h1 className="header">User Directory</h1>
+
     </div>
-  );
-}
+  )
+};
