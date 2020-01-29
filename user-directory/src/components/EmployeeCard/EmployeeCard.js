@@ -22,7 +22,7 @@ const EmployeeCard = props => (
         </li>
       </ul>
     </div>
-    <span onClick={() => props.removeEmployee(props.id)} className="remove">
+    <span onClick={() => props.removeUsers(props.id)} className="remove">
       𝘅
     </span>
   </div>
