@@ -1,11 +1,11 @@
-.container {
-    background-color: #66339922;
-    border: 2px solid rebeccapurple;
-    border-radius: 2px;
-    margin: 20px auto;
-    /* IMPORTANT to have container position relative */
-    position: relative;
-  }
 
-
+.header {
+  background: grey;
+  position: relative;
+}
   
+table, th, td {
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black collapse;
+}
